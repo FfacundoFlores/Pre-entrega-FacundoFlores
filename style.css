@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
 /* Fin fonts*/
 
+/*Media querys*/
+@media only screen and (max-width: 480px) {
+    
+    
+}
+
 /* Estilos generales*/
 
 * {
@@ -37,7 +43,14 @@ h3 {
 
 p {
     font-family: 'Instrument Serif', serif;
+
 }
+
+p::first-letter {
+    text-transform: uppercase;
+}
+
+
 
 .home:hover {
     cursor: pointer;
