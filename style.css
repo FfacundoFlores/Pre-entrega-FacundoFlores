@@ -39,6 +39,10 @@ p {
     font-family: 'Instrument Serif', serif;
 }
 
+.home:hover {
+    cursor: pointer;
+    }
+
 /* Fin estilos generales*/
 
 /* Estilos index.html*/
@@ -129,17 +133,19 @@ footer {
 
 /*Estilos fuego*/
 
-/* .headerfuego {
+.headerfuego {
     background-color: #f34336;
     border: 5px solid #eb8f88;
     border-top: 10px solid #eb8f88;
     padding-top: 0px;
     padding-bottom: 25px;
     
-}
+ }
 
 .h1fuego {
     font-size: 40px;
+    text-align: center;
+    font-family: cursive;
     
 }
 
@@ -150,11 +156,57 @@ footer {
     border-top: 10px solid #eb8f88;    
 }
 
-.fleximgs {
-    display: flex;
-    justify-content: space-around;
-} */
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: repeat(3, auto);
+    border: 3px solid black;
+    row-gap: 50px;
+    column-gap: 70px;
+}
 
+.grid-item1 {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    width: 240px;
+}
+
+.grid-item2 {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    font-size: 20px;
+}
+
+.grid-item3 {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    width: 240px;
+}
+
+.grid-item4 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.grid-item5 {
+    grid-column: 1;
+    grid-row: 3;
+    height: 240px;
+    width: 240px;
+}
+
+.grid-item6 {
+    grid-column: 2;
+    grid-row: 3;
+
+}
 /* .imgaries {
     margin-right: 25%;
 }
@@ -165,12 +217,12 @@ footer {
 
 .imgsagitario {
     margin-left: 4%;
-} */
+}
 /* Fin estilos fuego*/
 
 /* Estilos agua*/
 
-/* .headeragua {
+.headeragua {
 
     background-color: #9e9ef4;
     border: 5px solid #1d334a;
@@ -182,6 +234,9 @@ footer {
 .h1agua {
     color: antiquewhite;
     font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
 
 }
 
@@ -190,7 +245,7 @@ footer {
     color: antiquewhite;
     border: 5px solid #1d334a;
     border-top: 10px solid #1d334a;
-} */
+}
 
 /* .imgcancer {
     margin-right: 25%;
@@ -202,12 +257,13 @@ footer {
 
 .imgpiscis {
     margin-left: 4%;
-} */
+}*/
+
 /* Fin estilos agua*/
 
 /* Estilos tierra*/
 
-/* .headertierra{
+.headertierra{
 
     background-color: #a65e2e;
     border: 5px solid #7b4d2e;
@@ -217,6 +273,9 @@ footer {
 }
 .h1tierra {
     font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
 }
 
 .sectiontierra {
@@ -224,7 +283,7 @@ footer {
     color: antiquewhite;
     border: 5px solid #7b4d2e;
     border-top: 10px solid #7b4d2e;
-} */
+}
 
 /* .imgtauro {
     margin-right: 25%;
@@ -237,11 +296,12 @@ footer {
 .imgcapricornio {
     margin-left: 4%;
 } */
+
 /* Fin estilos tierra*/
 
 /* Estilos aire*/
 
-/* .headeraire {
+.headeraire {
 
     background-color: #e0defc;
     border: 5px solid #b7b5cd;
@@ -252,13 +312,16 @@ footer {
 
 .h1aire {
     font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
 }
 
 .sectionaire {
     background-color: #e0defc;
     border: 5px solid #b7b5cd;
     border-top: 10px solid #b7b5cd;
-} */
+}
 
 /* .imggeminis {
     margin-right: 25%;
