@@ -153,12 +153,6 @@ p::first-letter {
     margin: 0px;
 }
 
-iframe {
-    border: none;
-    width: 50%;
-    height: 100%;
-}
-
 .sectionindex {
     background-color: #1c1c1c;
     color: antiquewhite;
@@ -269,17 +263,7 @@ footer {
     grid-row: 3;
 
 }
-/* .imgaries {
-    margin-right: 25%;
-}
 
-.imgleo {
-    margin-right: 25%;
-}
-
-.imgsagitario {
-    margin-left: 4%;
-}
 /* Fin estilos fuego*/
 
 /* Estilos agua*/
@@ -309,18 +293,6 @@ footer {
     border-top: 10px solid #1d334a;
 }
 
-/* .imgcancer {
-    margin-right: 25%;
-}
-
-.imgescorpio {
-    margin-right: 25%;
-}
-
-.imgpiscis {
-    margin-left: 4%;
-}*/
-
 /* Fin estilos agua*/
 
 /* Estilos tierra*/
@@ -346,18 +318,6 @@ footer {
     border: 5px solid #7b4d2e;
     border-top: 10px solid #7b4d2e;
 }
-
-/* .imgtauro {
-    margin-right: 25%;
-}
-
-.imgvirgo {
-    margin-right: 25%;
-}
-
-.imgcapricornio {
-    margin-left: 4%;
-} */
 
 /* Fin estilos tierra*/
 
@@ -385,16 +345,5 @@ footer {
     border-top: 10px solid #b7b5cd;
 }
 
-/* .imggeminis {
-    margin-right: 25%;
-}
-
-.imglibra {
-    margin-right: 25%;
-}
-
-.imgacuario {
-    margin-left: 4%;
-} */
 /* Fin estilos aire*/
 
