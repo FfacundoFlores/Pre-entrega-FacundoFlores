@@ -1,12 +1,13 @@
+@import '../base/mixin';
+
 /*Section Index.html*/
 
 .sectionindexh2 {
     text-align: center;
     background-color: #1c1c1c;
-    color: antiquewhite;
-    font-size: 20px;
-    border: 5px solid #9c9a9a;
+    @include mix(5px solid #848484, antiquewhite);
     border-top: 10px solid #848484;
+    font-size: 20px;
 }
 
 
@@ -43,9 +44,8 @@ iframe {
 
 .sectionindex {
     background-color: #1c1c1c;
-    color: antiquewhite;
     font-size: 20px;
-    border: 5px solid #848484;
+    @include mix(5px solid #848484, antiquewhite);
     border-top: 10px solid #848484;
 }
 
@@ -63,32 +63,25 @@ iframe {
 /*Section Fuego*/
 .sectionfuego {
     background-color: #f34336;
-    color: antiquewhite;
-    border: 5px solid #eb8f88;
-    border-top: 10px solid #eb8f88;    
+    @include mix(5px solid black, antiquewhite);    
 }
 
 /*Section Agua*/
 .sectionagua{
     background-color: #9e9ef4;
-    color: antiquewhite;
-    border: 5px solid #1d334a;
-    border-top: 10px solid #1d334a;
+    @include mix(5px solid black, antiquewhite);
 }
 
 /*Section Tierra*/
 .sectiontierra {
     background-color: #a65e2e;
-    color: antiquewhite;
-    border: 5px solid #7b4d2e;
-    border-top: 10px solid #7b4d2e;
+    @include mix(5px solid black, antiquewhite);
 }
 
 /*Section Aire*/
 .sectionaire {
     background-color: #e0defc;
-    border: 5px solid #b7b5cd;
-    border-top: 10px solid #b7b5cd;
+    @include mix(5px solid black, antiquewhite);
 }
 
 
