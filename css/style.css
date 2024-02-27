@@ -1,0 +1,272 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap");
+/* Fin fonts*/
+.headeraire, .headertierra, .headeragua, .headerfuego {
+  border: 5px solid black;
+  border-top: 10PX solid black;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+
+.h1aire, .h1tierra, .h1agua, .h1fuego {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+}
+
+/*Colores*/
+.headerindex {
+  background-color: #1c1c1c;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  padding: 30px 50px;
+  border: 5px solid #848484;
+  border-top: 20px solid #848484;
+}
+
+/*Header Fuego.html*/
+.headerfuego {
+  background-color: #f34336;
+}
+
+.h1fuego {
+  font-size: 40px;
+}
+
+/*Header agua.html*/
+.headeragua {
+  background-color: #9e9ef4;
+}
+
+.h1agua {
+  font-size: 40px;
+}
+
+/*Header Tierra.html*/
+.headertierra {
+  background-color: #a65e2e;
+}
+
+.h1tierra {
+  font-size: 40px;
+}
+
+/*Header Aire.html*/
+.headeraire {
+  background-color: #e0defc;
+}
+
+.h1aire {
+  font-size: 40px;
+}
+
+/*Section Index.html*/
+.sectionindexh2 {
+  text-align: center;
+  background-color: #1c1c1c;
+  color: antiquewhite;
+  font-size: 20px;
+  border: 5px solid #9c9a9a;
+  border-top: 10px solid #848484;
+}
+
+.video {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 240px;
+}
+
+.textbox {
+  margin: 30px auto;
+  padding: 2px;
+  background-color: rgba(36, 37, 37, 0.4745098039);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  margin-bottom: 40px;
+}
+
+.text1 {
+  font-size: 16px;
+  align-items: center;
+  line-height: 1.6;
+  color: #ffffff;
+  margin: 0px;
+}
+
+iframe {
+  border: none;
+  width: 50%;
+  height: 100%;
+}
+
+.sectionindex {
+  background-color: #1c1c1c;
+  color: antiquewhite;
+  font-size: 20px;
+  border: 5px solid #848484;
+  border-top: 10px solid #848484;
+}
+
+.carousel {
+  margin-left: 35%;
+  padding-bottom: 50px;
+}
+
+.d-block {
+  width: 240px;
+  height: 240px;
+}
+
+/*Section Fuego*/
+.sectionfuego {
+  background-color: #f34336;
+  color: antiquewhite;
+  border: 5px solid #eb8f88;
+  border-top: 10px solid #eb8f88;
+}
+
+/*Section Agua*/
+.sectionagua {
+  background-color: #9e9ef4;
+  color: antiquewhite;
+  border: 5px solid #1d334a;
+  border-top: 10px solid #1d334a;
+}
+
+/*Section Tierra*/
+.sectiontierra {
+  background-color: #a65e2e;
+  color: antiquewhite;
+  border: 5px solid #7b4d2e;
+  border-top: 10px solid #7b4d2e;
+}
+
+/*Section Aire*/
+.sectionaire {
+  background-color: #e0defc;
+  border: 5px solid #b7b5cd;
+  border-top: 10px solid #b7b5cd;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-template-rows: repeat(3, auto);
+  border: 3px solid black;
+  row-gap: 50px;
+  column-gap: 70px;
+}
+
+.grid-item1 {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  height: 240px;
+  width: 240px;
+}
+
+.grid-item2 {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+  font-size: 20px;
+}
+
+.grid-item3 {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  height: 240px;
+  width: 240px;
+}
+
+.grid-item4 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.grid-item5 {
+  grid-column: 1;
+  grid-row: 3;
+  height: 240px;
+  width: 240px;
+}
+
+.grid-item6 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+/*Section Agua */
+footer {
+  background-color: #848484;
+  color: antiquewhite;
+  border: 5px solid #848484;
+  border-top: #848484;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-family: cursive;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: cursive;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.subtitulossignos {
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+  font-size: 25px;
+}
+
+p {
+  font-family: "Instrument Serif", serif;
+  font-size: 22px;
+}
+
+p::first-letter {
+  text-transform: uppercase;
+}
+
+.home:hover {
+  cursor: pointer;
+}
+
+.headerfuego, .headeragua, .headertierra, .headeraire {
+  border: 5px solid black;
+  border-top: 10PX solid black;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+
+.h1fuego, .h1agua, .h1tierra, .h1aire {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+}
+
+/*Colores*/
+
+/*# sourceMappingURL=style.css.map */

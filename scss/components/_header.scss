@@ -1,0 +1,58 @@
+@import '../base/extends';
+@import '../base/maps';
+
+.headerindex {
+    background-color: map-get($colores, bg-headerindex );
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding: 30px 50px;
+    border: 5px solid #848484;
+    border-top: 20px solid #848484 ;
+};
+
+/*Header Fuego.html*/
+.headerfuego {
+    background-color: map-get($colores, bg-headerfuego );
+    @extend %headers
+    
+ };
+
+
+.h1fuego {
+    font-size: 40px;
+    @extend %h1pages        
+};
+
+/*Header agua.html*/
+.headeragua {
+    background-color: map-get($colores, bg-headeragua );
+    @extend %headers
+};
+
+.h1agua {
+    font-size: 40px;
+    @extend %h1pages 
+};
+
+/*Header Tierra.html*/
+.headertierra{
+    background-color: map-get($colores, bg-headertierra );
+    @extend %headers
+};
+
+.h1tierra {
+    font-size: 40px;
+    @extend %h1pages 
+};
+
+/*Header Aire.html*/
+.headeraire {
+    background-color: map-get($colores, bg-headeraire );
+    @extend %headers
+};
+
+.h1aire {
+    font-size: 40px;
+    @extend %h1pages 
+};
