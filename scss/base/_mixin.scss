@@ -1,0 +1,4 @@
+@mixin mix($border, $color) {
+    border: $border;
+    color: $color;
+}

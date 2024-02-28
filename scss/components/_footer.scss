@@ -1,0 +1,6 @@
+@import '../base/mixin';
+
+footer {
+    background-color: #848484;
+    @include mix(5px solid #848484, antiquewhite);
+}
