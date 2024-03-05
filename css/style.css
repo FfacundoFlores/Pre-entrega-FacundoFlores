@@ -264,6 +264,9 @@ p::first-letter {
 }
 
 /*Colores*/
-/* Background animado*/
+img:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
 
 /*# sourceMappingURL=style.css.map */
