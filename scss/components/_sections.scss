@@ -42,12 +42,12 @@ iframe {
     height: 100%;
 }
 
-.sectionindex {
-    background-color: #1c1c1c;
-    font-size: 20px;
-    @include mix(5px solid #848484, antiquewhite);
-    border-top: 10px solid #848484;
-}
+// .sectionindex {
+//     background-color: #1c1c1c;
+//     font-size: 20px;
+//     @include mix(5px solid #848484, antiquewhite);
+//     border-top: 10px solid #848484;
+// }
 
 .carousel {
     margin-left: 35%;
@@ -62,25 +62,25 @@ iframe {
 
 /*Section Fuego*/
 .sectionfuego {
-    background-color: #f34336;
+    // background-color: #f34336;
     @include mix(5px solid black, antiquewhite);    
 }
 
 /*Section Agua*/
 .sectionagua{
-    background-color: #9e9ef4;
+    // background-color: #9e9ef4;
     @include mix(5px solid black, antiquewhite);
 }
 
 /*Section Tierra*/
 .sectiontierra {
-    background-color: #a65e2e;
+    // background-color: #a65e2e;
     @include mix(5px solid black, antiquewhite);
 }
 
 /*Section Aire*/
 .sectionaire {
-    background-color: #e0defc;
+    // background-color: #e0defc;
     @include mix(5px solid black, antiquewhite);
 }
 
@@ -136,5 +136,5 @@ iframe {
     grid-row: 3;
 }
 
-/*Section Agua */
+    
 

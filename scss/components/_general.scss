@@ -17,6 +17,7 @@ h2 {
 }
 
 h3 {
+    color: antiquewhite;
     font-family: cursive;
     font-size: 30px;
     padding-bottom: 30px;
@@ -43,3 +44,16 @@ p::first-letter {
 .home:hover {
     cursor: pointer;
     }
+
+body {
+    background-image: url(../../images/bg-astrologia.webp);
+        background-repeat: repeat;
+        background-position: center;
+}    
+
+.body-signos {
+    height: 140px;
+    background-image: url(../../images/bg-signos.webp);
+    background-repeat: repeat;
+    
+}
