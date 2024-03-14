@@ -206,9 +206,16 @@ iframe {
 }
 
 footer {
+  display: flex;
   background-color: #848484;
   border: 5px solid #848484;
   color: antiquewhite;
+}
+footer p {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin: 6px;
 }
 
 * {
